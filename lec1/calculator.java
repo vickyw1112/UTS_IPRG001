@@ -30,7 +30,7 @@ class TestCalculator
 	Calculator calc1, calc2;
 
 	TestCalculator()
-	{
+    {
 		// Create two different calculator objects
 		calc1 = new Calculator();
 		calc2 = new Calculator();
