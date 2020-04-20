@@ -39,6 +39,16 @@ public class Roulette {
 
         if (numOfSpins != 1 && numOfSpins != 2 && numOfSpins != 3) {
             System.out.println("Aha, wrong");
+            int right = -1;
+            while (right == -1) {
+                System.out.println("Enter the number of times you want to play (1/2/3):");
+                scanIn = new Scanner(System.in);
+                numOfSpins = scanIn.nextInt();
+                if (numOfSpins != 1 && numOfSpins != 2 && numOfSpins != 3) {
+                    continue;
+                }
+
+            }
             
         } else if (numOfSpins == 1 || numOfSpins == 2 || numOfSpins == 3) {
             switch (numOfSpins) {
