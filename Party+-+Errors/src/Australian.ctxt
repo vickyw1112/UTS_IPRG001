@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.params=personsName
+comment0.target=Australian(String)
+comment1.params=personsName\ favFood
+comment1.target=Australian(String,\ String)
+comment2.target=void\ makeGreeting()
+comment3.target=void\ myFavouriteFood()
+comment4.params=personsName\ favFood
+comment4.target=void\ initialise(String,\ String)
+numComments=5
